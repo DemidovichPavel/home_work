@@ -9,11 +9,19 @@ print(num_degree(user_number, user_degree))
 
 
 
+degree = lambda num_1, num_2: num_1 ** num_2
+
+num_1 = int(input('Введите целое положительное число '))
+num_2 = int(input('Введите отрицательное число степень '))
+print(degree(num_1, num_2))
+
+
+
 def num_degree(x, y):
     n = abs(y)
     z = x
     while n != 1:
-        x = z * x
+        x = x * z
         n = n - 1
     if y < 0:
         x = 1 / x
