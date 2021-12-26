@@ -1,0 +1,5 @@
+roga_i_kopita OOO 150000 51255
+matreshca OAO 85559 98234
+podorozhnic OOO 889633 55241
+plushka OOO 1123001 320141
+wilson ZAO 7539120 77811235
